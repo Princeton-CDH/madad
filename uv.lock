@@ -759,15 +759,11 @@ name = "madad"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "django" },
     { name = "geniza" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "django", specifier = ">=5.2,<5.3" },
-    { name = "geniza", git = "https://github.com/Princeton-CDH/geniza.git" },
-]
+requires-dist = [{ name = "geniza", git = "https://github.com/Princeton-CDH/geniza.git" }]
 
 [[package]]
 name = "markdown-it-py"
