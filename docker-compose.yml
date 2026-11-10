@@ -1,0 +1,26 @@
+services:
+  # one-off init: create solr data dirs owned by the solr user (uid 8983);
+  # otherwise docker creates them as root when mounting the configset
+  solr-init:
+    image: busybox
+    command: sh -c "mkdir -p /var/solr/data/configsets/geniza /var/solr/logs && chown -R 8983:8983 /var/solr"
+    volumes:
+      - solr_data:/var/solr
+
+  solr:
+    image: solr:9.9
+    depends_on:
+      solr-init:
+        condition: service_completed_successfully
+    ports:
+      - "8983:8983"
+    environment:
+      - SOLR_MODULES=extraction,clustering,langid,analysis-extras,scripting
+    volumes:
+      # persistent solr data (cores)
+      - solr_data:/var/solr
+      # map local [geniza] solr configset to geniza configset on the solr server
+      - /Users/rkoeser/workarea/github/geniza/solr_conf:/var/solr/data/configsets/geniza:ro
+
+volumes:
+  solr_data:
