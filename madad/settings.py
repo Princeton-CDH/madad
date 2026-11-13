@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
+from geniza.settings.components.base import WAGTAILADMIN_BASE_URL, WAGTAIL_CONTENT_LANGUAGES
 
 from pathlib import Path
 
@@ -27,17 +28,58 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# *** required custom config settings
+
+# config required by geniza document doctype help text
+PGP_DOCTYPE_GUIDE = ""
+
+# username for logging scripted activity in django admin history records
+SCRIPT_USERNAME = "script"
+
+# username for representing activity by entire team, or no specific user
+TEAM_USERNAME = "pgl" # ?
 
 # Application definition
 
 INSTALLED_APPS = [
+    "modeltranslation",  # must come before admin config
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # customize to integrate geniza components & required dependencies
+    "dal",  # Django autocomplete light
+    "dal_select2",
+    # "csp_helpers",  # required for templates with javascript, webpack stuff TBD
+    "django.contrib.sites",
+    "django.contrib.humanize",
+    "taggit",
+    "widget_tweaks",
+    "djiffy",
+    "parasolr",
+    # omitting wagtail for now
+
+    "geniza.common",
+    "geniza.corpus.apps.CorpusAppConfig",  # app config binds tag signal handlers
+    "geniza.annotations",  # imported in corpus.models
+    "geniza.footnotes",  # .apps.FootnotesConfig",
+    # "geniza.entities",  # currently required due to circular dependencies
 ]
+
+# for now use default solr with existing geniza configset
+SOLR_CONNECTIONS = {
+    "default": {
+        "URL": "http://localhost:8983/solr/",
+        "COLLECTION": "madad",
+        "CONFIGSET": "geniza",  # ooh can we get away with this?
+        "TEST": {
+            # set aggressive commitWithin when testing
+            "COMMITWITHIN": 750,
+        },
+    }
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -51,10 +93,20 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'madad.urls'
 
+from pathlib import Path
+import geniza
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # disable for now until we resolve frontend dependencies
+#         'DIRS': [
+#             # add access to base geniza templates like error pages, solr error, etc
+#             BASE_DIR / "madad" / "templates",
+#
+#             Path(geniza.__path__[0]) / "templates",
+#
+#         ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -71,13 +123,21 @@ WSGI_APPLICATION = 'madad.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
+# pgp codebase requires postgres
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "cdh_madad",
+        "USER": "cdh_madad",
+        "PASSWORD": "1234!@#$",
+        "HOST": "",  # empty string for localhost
+        "PORT": "",  # empty string for default
     }
 }
+
+# use default Django site
+SITE_ID = 1
 
 
 # Password validation
@@ -102,7 +162,21 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
+LANGUAGES = [
+    ("en", "English"),
+    ("he", "Hebrew"),
+    ("ar", "Arabic"),
+]
+
+WAGTAIL_CONTENT_LANGUAGES = [
+    LANGUAGES[0]
+]
+
+PUBLIC_SITE_LANGUAGES = [
+    "en",
+]
+
 
 TIME_ZONE = 'UTC'
 
