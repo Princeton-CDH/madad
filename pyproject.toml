@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-geniza = { git = "https://github.com/Princeton-CDH/geniza.git" }
+geniza = { git = "https://github.com/Princeton-CDH/geniza.git", branch = "feature/support-madad"  }

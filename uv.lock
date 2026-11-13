@@ -547,8 +547,8 @@ wheels = [
 
 [[package]]
 name = "geniza"
-version = "4.32.0"
-source = { git = "https://github.com/Princeton-CDH/geniza.git#d049e726cfa8a7fa953f3c7562fafdc0553b0f2e" }
+version = "4.33.0.dev0"
+source = { git = "https://github.com/Princeton-CDH/geniza.git?branch=feature%2Fsupport-madad#e0f94d590067f7024ff53a42cb9e1577f6626c0b" }
 dependencies = [
     { name = "addict" },
     { name = "beautifulsoup4" },
@@ -763,7 +763,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "geniza", git = "https://github.com/Princeton-CDH/geniza.git" }]
+requires-dist = [{ name = "geniza", git = "https://github.com/Princeton-CDH/geniza.git?branch=feature%2Fsupport-madad" }]
 
 [[package]]
 name = "markdown-it-py"
