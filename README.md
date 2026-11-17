@@ -11,7 +11,7 @@ Requires a postgresql database — should be similar set up to geniza. Run migra
 
 ```bash
 python manage.py migrate
-python createsuperuser
+python manage.py createsuperuser
 ```
 
 The application requires solr even though we aren't using it yet; recommend using the provisional `docker-compose.yml` file. Manually edit the yml to set the path for the solr configset to a local checkout of the geniza codebase, then start with:
