@@ -9,9 +9,8 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
-from geniza.settings.components.base import WAGTAILADMIN_BASE_URL, WAGTAIL_CONTENT_LANGUAGES
-
 from pathlib import Path
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -93,8 +92,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'madad.urls'
 
-from pathlib import Path
-import geniza
 
 TEMPLATES = [
     {
@@ -163,22 +160,22 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
 LANGUAGE_CODE = 'en'
+# configure all languages that we want available for translated content in the database
 LANGUAGES = [
     ("en", "English"),
     ("he", "Hebrew"),
     ("ar", "Arabic"),
 ]
-
+# restrict wagtail and public site to english-only for now, so we don't have to translate site content
 WAGTAIL_CONTENT_LANGUAGES = [
     LANGUAGES[0]
 ]
-
 PUBLIC_SITE_LANGUAGES = [
-    "en",
+   "en",
 ]
 
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = "America/New_York"
 
 USE_I18N = True
 
