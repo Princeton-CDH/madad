@@ -14,10 +14,19 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-The application requires solr even though we aren't using it yet; recommend using the provisional `docker-compose.yml` file. Manually edit the yml to set the path for the solr configset to a local checkout of the geniza codebase, then start with:
+The application requires Solr 9.9 even though we aren't using it yet. We recommend using the provisional `docker-compose.yml` configuration. For now, this requires a path to the solr configset in a local checkout of the geniza codebase. The base path to the local checkout of the geniza codebase should be set as environment variable **GENIZA_PATH**. We recommend using [direnv](https://direnv.net/) with a `.env` or `.envrc` file something like this:
+
+```sh
+# path to geniza git checkout
+GENIZA_PATH=/Users/username/documents/geniza
+```
+
+Once you have the path to `geniza` configured, run docker to start the Solr 9.9 server with the geniza solr configset.
 
 ```bash
 docker compose up -d
 ```
+
+You will have to create a `madad` solr collection/core the first time you do this.
 
 Start the application with Django runserver, then open the django admin interface - you should see the corpus section with fragments and documents.

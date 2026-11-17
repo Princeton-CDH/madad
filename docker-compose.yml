@@ -20,7 +20,7 @@ services:
       # persistent solr data (cores)
       - solr_data:/var/solr
       # map local [geniza] solr configset to geniza configset on the solr server
-      - /Users/rkoeser/workarea/github/geniza/solr_conf:/var/solr/data/configsets/geniza:ro
+      - ${GENIZA_PATH}/solr_conf:/var/solr/data/configsets/geniza:ro
 
 volumes:
   solr_data:
