@@ -1,0 +1,12 @@
+[project]
+name = "madad"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.10"
+dependencies = [
+    "geniza",  # rely on geniza for requirements & specific versions
+]
+
+[tool.uv.sources]
+geniza = { git = "https://github.com/Princeton-CDH/geniza.git", branch = "feature/support-madad"  }

@@ -1,0 +1,1407 @@
+[
+{
+    "model": "djiffy.manifest",
+    "pk": 11377,
+    "fields": {
+        "label": "ENA 1055.28",
+        "short_id": "dd56ad95-255c-49cd-acc6-e9d342eb8749",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/dd56ad95-255c-49cd-acc6-e9d342eb8749/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1055.28"
+            ],
+            "Identifier": [
+                "ark:/88435/p8418x03s"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1055.28"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "https://figgy.princeton.edu/catalog/dd56ad95-255c-49cd-acc6-e9d342eb8749.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/dd56ad95-255c-49cd-acc6-e9d342eb8749",
+                "title": [
+                    {
+                        "@value": "ENA 1055.28",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/p8418x03s"
+                ],
+                "system_created_at": "2021-01-07T14:23:38Z",
+                "system_updated_at": "2022-04-20T23:39:35Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11376,
+    "fields": {
+        "label": "ENA 1055.27",
+        "short_id": "42e2a9b2-4605-45ed-b104-93f35c4cafa2",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/42e2a9b2-4605-45ed-b104-93f35c4cafa2/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1055.27"
+            ],
+            "Identifier": [
+                "ark:/88435/q237j177g"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1055.27"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "https://figgy.princeton.edu/catalog/42e2a9b2-4605-45ed-b104-93f35c4cafa2.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/42e2a9b2-4605-45ed-b104-93f35c4cafa2",
+                "title": [
+                    {
+                        "@value": "ENA 1055.27",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/q237j177g"
+                ],
+                "system_created_at": "2021-01-07T14:22:59Z",
+                "system_updated_at": "2022-04-20T23:39:35Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 10472,
+    "fields": {
+        "label": "ENA 1157.11",
+        "short_id": "d94f1b2e-6243-4b4e-a242-2bd2fa2a0651",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/d94f1b2e-6243-4b4e-a242-2bd2fa2a0651/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1157.11"
+            ],
+            "Identifier": [
+                "ark:/88435/6d5705263"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1157.11"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "https://figgy.princeton.edu/catalog/d94f1b2e-6243-4b4e-a242-2bd2fa2a0651.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/d94f1b2e-6243-4b4e-a242-2bd2fa2a0651",
+                "title": [
+                    {
+                        "@value": "ENA 1157.11",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/6d5705263"
+                ],
+                "system_created_at": "2021-01-07T23:03:28Z",
+                "system_updated_at": "2022-04-20T20:35:55Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11691,
+    "fields": {
+        "label": "ENA 1066.9",
+        "short_id": "1e1d75de-8e84-4759-8111-e776239b5c72",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/1e1d75de-8e84-4759-8111-e776239b5c72/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1066.9"
+            ],
+            "Identifier": [
+                "ark:/88435/dc76537b48w"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1066.9"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "https://figgy.princeton.edu/catalog/1e1d75de-8e84-4759-8111-e776239b5c72.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/1e1d75de-8e84-4759-8111-e776239b5c72",
+                "title": [
+                    {
+                        "@value": "ENA 1066.9",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/dc76537b48w"
+                ],
+                "system_created_at": "2021-12-01T15:23:37Z",
+                "system_updated_at": "2022-04-20T18:28:48Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11690,
+    "fields": {
+        "label": "ENA 1066.8",
+        "short_id": "e161d916-3b26-41f6-816a-0da8108079c4",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/e161d916-3b26-41f6-816a-0da8108079c4/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1066.8"
+            ],
+            "Identifier": [
+                "ark:/88435/dcjd4736614"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1066.8"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "https://figgy.princeton.edu/catalog/e161d916-3b26-41f6-816a-0da8108079c4.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/e161d916-3b26-41f6-816a-0da8108079c4",
+                "title": [
+                    {
+                        "@value": "ENA 1066.8",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/dcjd4736614"
+                ],
+                "system_created_at": "2021-12-01T15:23:30Z",
+                "system_updated_at": "2022-04-20T18:28:48Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11689,
+    "fields": {
+        "label": "ENA 1066.7",
+        "short_id": "557f1976-6e3d-421a-84f5-df7b06077d2e",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/557f1976-6e3d-421a-84f5-df7b06077d2e/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1066.7"
+            ],
+            "Identifier": [
+                "ark:/88435/dc0g354r34x"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1066.7"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "https://figgy.princeton.edu/catalog/557f1976-6e3d-421a-84f5-df7b06077d2e.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/557f1976-6e3d-421a-84f5-df7b06077d2e",
+                "title": [
+                    {
+                        "@value": "ENA 1066.7",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/dc0g354r34x"
+                ],
+                "system_created_at": "2021-12-01T15:23:22Z",
+                "system_updated_at": "2022-04-20T18:28:48Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11688,
+    "fields": {
+        "label": "ENA 1066.6",
+        "short_id": "73a3f7c9-ae4a-4cab-9ee1-f3397a3b3b58",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/73a3f7c9-ae4a-4cab-9ee1-f3397a3b3b58/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1066.6"
+            ],
+            "Identifier": [
+                "ark:/88435/dczg64tx06j"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1066.6"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "https://figgy.princeton.edu/catalog/73a3f7c9-ae4a-4cab-9ee1-f3397a3b3b58.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/73a3f7c9-ae4a-4cab-9ee1-f3397a3b3b58",
+                "title": [
+                    {
+                        "@value": "ENA 1066.6",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/dczg64tx06j"
+                ],
+                "system_created_at": "2021-12-01T15:23:15Z",
+                "system_updated_at": "2022-04-20T18:28:48Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11687,
+    "fields": {
+        "label": "ENA 1066.5",
+        "short_id": "7260c139-84ac-4717-89a8-7924e237ec83",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/7260c139-84ac-4717-89a8-7924e237ec83/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1066.5"
+            ],
+            "Identifier": [
+                "ark:/88435/dcj96029767"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1066.5"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "https://figgy.princeton.edu/catalog/7260c139-84ac-4717-89a8-7924e237ec83.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/7260c139-84ac-4717-89a8-7924e237ec83",
+                "title": [
+                    {
+                        "@value": "ENA 1066.5",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/dcj96029767"
+                ],
+                "system_created_at": "2021-12-01T15:23:08Z",
+                "system_updated_at": "2022-04-20T18:28:48Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11686,
+    "fields": {
+        "label": "ENA 1066.4",
+        "short_id": "1d83619d-a8ed-4f9e-8668-a785981105d6",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/1d83619d-a8ed-4f9e-8668-a785981105d6/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1066.4"
+            ],
+            "Identifier": [
+                "ark:/88435/dcn296x828t"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1066.4"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "https://figgy.princeton.edu/catalog/1d83619d-a8ed-4f9e-8668-a785981105d6.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/1d83619d-a8ed-4f9e-8668-a785981105d6",
+                "title": [
+                    {
+                        "@value": "ENA 1066.4",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/dcn296x828t"
+                ],
+                "system_created_at": "2021-12-01T15:22:57Z",
+                "system_updated_at": "2022-04-20T18:28:48Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11685,
+    "fields": {
+        "label": "ENA 1066.3",
+        "short_id": "64315fe3-6f1b-485f-b444-9266ae89ebff",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/64315fe3-6f1b-485f-b444-9266ae89ebff/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1066.3"
+            ],
+            "Identifier": [
+                "ark:/88435/dctm70n5321"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1066.3"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "https://figgy.princeton.edu/catalog/64315fe3-6f1b-485f-b444-9266ae89ebff.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/64315fe3-6f1b-485f-b444-9266ae89ebff",
+                "title": [
+                    {
+                        "@value": "ENA 1066.3",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/dctm70n5321"
+                ],
+                "system_created_at": "2021-12-01T15:22:49Z",
+                "system_updated_at": "2022-04-20T18:28:48Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11684,
+    "fields": {
+        "label": "ENA 1066.2",
+        "short_id": "c136f1bb-814d-402a-9fb4-bb77d95cfa48",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/c136f1bb-814d-402a-9fb4-bb77d95cfa48/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1066.2"
+            ],
+            "Identifier": [
+                "ark:/88435/dcdf65vj992"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1066.2"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "https://figgy.princeton.edu/catalog/c136f1bb-814d-402a-9fb4-bb77d95cfa48.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/c136f1bb-814d-402a-9fb4-bb77d95cfa48",
+                "title": [
+                    {
+                        "@value": "ENA 1066.2",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/dcdf65vj992"
+                ],
+                "system_created_at": "2021-12-01T15:22:42Z",
+                "system_updated_at": "2022-04-20T18:28:48Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 11692,
+    "fields": {
+        "label": "ENA 1066.10",
+        "short_id": "9e34932b-2e8d-41ac-b9c5-371110e270d4",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/9e34932b-2e8d-41ac-b9c5-371110e270d4/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1066.10"
+            ],
+            "Identifier": [
+                "ark:/88435/dcs4655s766"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1066.10"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "https://figgy.princeton.edu/catalog/9e34932b-2e8d-41ac-b9c5-371110e270d4.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/9e34932b-2e8d-41ac-b9c5-371110e270d4",
+                "title": [
+                    {
+                        "@value": "ENA 1066.10",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/dcs4655s766"
+                ],
+                "system_created_at": "2021-12-01T15:23:47Z",
+                "system_updated_at": "2022-04-20T18:28:49Z"
+            }
+        }
+    }
+},
+{
+    "model": "djiffy.manifest",
+    "pk": 10473,
+    "fields": {
+        "label": "ENA 1157.12",
+        "short_id": "111634cd-2c28-49f5-b733-f8441bb05f2b",
+        "uri": "https://figgy.princeton.edu/concern/scanned_resources/111634cd-2c28-49f5-b733-f8441bb05f2b/manifest",
+        "metadata": {
+            "Title": [
+                "ENA 1157.12"
+            ],
+            "Identifier": [
+                "ark:/88435/v118rp20d"
+            ],
+            "Provenance": [
+                "Images provided by the Jewish Theological Seminary Library (JTSL)"
+            ],
+            "Local Identifier": [
+                "ENA 1157.12"
+            ]
+        },
+        "created": "2022-01-20",
+        "last_modified": "2022-06-15",
+        "extra_data": {
+            "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-7b5f9384dfa5ca04f4851c6ee9e44e2d6953e55f893472a3e205e1591d3b2ca6.png",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "https://figgy.princeton.edu/catalog/111634cd-2c28-49f5-b733-f8441bb05f2b.jsonld": {
+                "@id": "https://figgy.princeton.edu/catalog/111634cd-2c28-49f5-b733-f8441bb05f2b",
+                "title": [
+                    {
+                        "@value": "ENA 1157.12",
+                        "@language": "eng"
+                    }
+                ],
+                "@context": [
+                    "https://bibdata.princeton.edu/context.json",
+                    {
+                        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+                        "latitude": {
+                            "@id": "wgs84:lat"
+                        },
+                        "longitude": {
+                            "@id": "wgs84:lon"
+                        }
+                    }
+                ],
+                "edm_rights": {
+                    "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "@type": "dcterms:RightsStatement",
+                    "pref_label": "CC-Zero / Public Domain"
+                },
+                "identifier": [
+                    "ark:/88435/v118rp20d"
+                ],
+                "system_created_at": "2021-01-07T23:01:44Z",
+                "system_updated_at": "2022-04-20T20:35:55Z"
+            }
+        }
+    }
+},
+{
+    "model": "corpus.collection",
+    "fields": {
+        "library": "Jewish Theological Seminary Library",
+        "lib_abbrev": "JTS",
+        "abbrev": "",
+        "name": "",
+        "location": "New York",
+        "url": ""
+    }
+},
+{
+    "model": "taggit.tag",
+    "fields": {
+        "name": "16th c or later",
+        "slug": "16th-c-or-later"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1069.50",
+        "old_shelfmarks": "",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": null,
+        "created": "2024-08-11T14:48:58.660Z",
+        "last_modified": "2024-08-11T14:48:58.660Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1055.28",
+        "old_shelfmarks": "ENA 1055, f. 28; ENA 1055, fol. 28",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/dd56ad95-255c-49cd-acc6-e9d342eb8749/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11377,
+        "created": "2021-05-26T20:25:00.418Z",
+        "last_modified": "2024-01-18T16:55:39.364Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1055.27",
+        "old_shelfmarks": "ENA 1055, fol. 27; ENA 1055, f. 27",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/42e2a9b2-4605-45ed-b104-93f35c4cafa2/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11376,
+        "created": "2021-05-26T20:25:00.385Z",
+        "last_modified": "2024-01-18T16:55:39.361Z"
+    }
+},
+{
+    "model": "corpus.documenttype",
+    "fields": {
+        "name": "Literary",
+        "name_en": "Literary",
+        "name_he": "טקסט ספרותי",
+        "name_ar": "نصوص أدبيّة",
+        "display_label": "Literary text",
+        "display_label_en": "Literary text",
+        "display_label_he": "טקסט ספרותי",
+        "display_label_ar": "نصوص أدبيّة"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1157.11",
+        "old_shelfmarks": "ENA 1157, fol. 11; ENA 1157, f. 11",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/d94f1b2e-6243-4b4e-a242-2bd2fa2a0651/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 10472,
+        "created": "2021-05-26T20:25:00.767Z",
+        "last_modified": "2024-01-18T16:55:39.372Z"
+    }
+},
+{
+    "model": "corpus.documenttype",
+    "fields": {
+        "name": "Legal",
+        "name_en": "Legal",
+        "name_he": "מסמך משפטי",
+        "name_ar": "ثيقة شرعيّة",
+        "display_label": "Legal document",
+        "display_label_en": "Legal document",
+        "display_label_he": "מסמך משפטי",
+        "display_label_ar": "ثيقة شرعيّة"
+    }
+},
+{
+    "model": "corpus.languagescript",
+    "fields": {
+        "language": "Judaeo-Italian",
+        "script": "Hebrew",
+        "display_name": "Judaeo-Italian",
+        "iso_code": ""
+    }
+},
+{
+    "model": "corpus.languagescript",
+    "fields": {
+        "language": "Hebrew",
+        "script": "Hebrew",
+        "display_name": "Hebrew",
+        "iso_code": "he"
+    }
+},
+{
+    "model": "taggit.tag",
+    "fields": {
+        "name": "Venice",
+        "slug": "venice"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.9",
+        "old_shelfmarks": "ENA 1066, f. 9; ENA 1066, fol. 9",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/1e1d75de-8e84-4759-8111-e776239b5c72/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11691,
+        "created": "2021-05-26T20:25:00.735Z",
+        "last_modified": "2024-01-18T16:55:39.371Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.8",
+        "old_shelfmarks": "ENA 1066, f. 8; ENA 1066, fol. 8",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/e161d916-3b26-41f6-816a-0da8108079c4/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11690,
+        "created": "2021-05-26T20:25:00.702Z",
+        "last_modified": "2024-01-18T16:55:39.370Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.7",
+        "old_shelfmarks": "ENA 1066, f. 7; ENA 1066, fol. 7",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/557f1976-6e3d-421a-84f5-df7b06077d2e/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11689,
+        "created": "2021-05-26T20:25:00.666Z",
+        "last_modified": "2024-01-18T16:55:39.369Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.6",
+        "old_shelfmarks": "ENA 1066, fol. 6; ENA 1066, f. 6",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/73a3f7c9-ae4a-4cab-9ee1-f3397a3b3b58/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11688,
+        "created": "2021-05-26T20:25:00.637Z",
+        "last_modified": "2024-01-18T16:55:39.369Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.5",
+        "old_shelfmarks": "ENA 1066, f. 5; ENA 1066, fol. 5",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/7260c139-84ac-4717-89a8-7924e237ec83/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11687,
+        "created": "2021-05-26T20:25:00.609Z",
+        "last_modified": "2024-01-18T16:55:39.368Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.4",
+        "old_shelfmarks": "ENA 1066, f. 4; ENA 1066, fol. 4",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/1d83619d-a8ed-4f9e-8668-a785981105d6/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11686,
+        "created": "2021-05-26T20:25:00.571Z",
+        "last_modified": "2024-01-18T16:55:39.367Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.3",
+        "old_shelfmarks": "ENA 1066, fol. 3; ENA 1066, f. 3",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/64315fe3-6f1b-485f-b444-9266ae89ebff/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11685,
+        "created": "2021-05-26T20:25:00.542Z",
+        "last_modified": "2024-01-18T16:55:39.367Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.2",
+        "old_shelfmarks": "ENA 1066, fol. 2; ENA 1066, f. 2",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/c136f1bb-814d-402a-9fb4-bb77d95cfa48/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11684,
+        "created": "2021-05-26T20:25:00.509Z",
+        "last_modified": "2024-01-18T16:55:39.366Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.10",
+        "old_shelfmarks": "ENA 1066, f. 10; ENA 1066, fol. 10",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/9e34932b-2e8d-41ac-b9c5-371110e270d4/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 11692,
+        "created": "2021-05-26T20:25:00.479Z",
+        "last_modified": "2024-01-18T16:55:39.365Z"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1066.1",
+        "old_shelfmarks": "ENA 1066.1–10; ENA 1066, f. 1; ENA 1066, fol. 1",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": null,
+        "created": "2021-05-26T20:25:00.443Z",
+        "last_modified": "2024-01-18T16:55:39.365Z"
+    }
+},
+{
+    "model": "corpus.documenttype",
+    "fields": {
+        "name": "List or table",
+        "name_en": "List or table",
+        "name_he": "רשימה או טבלה",
+        "name_ar": "قائمة/جدول",
+        "display_label": "List or table",
+        "display_label_en": "List or table",
+        "display_label_he": "רשימה או טבלה",
+        "display_label_ar": "قائمة/جدول"
+    }
+},
+{
+    "model": "corpus.languagescript",
+    "fields": {
+        "language": "Judaeo-Arabic",
+        "script": "Hebrew",
+        "display_name": "Judaeo-Arabic",
+        "iso_code": "jrb"
+    }
+},
+{
+    "model": "taggit.tag",
+    "fields": {
+        "name": "unedited 11th c",
+        "slug": "unedited-11th-c"
+    }
+},
+{
+    "model": "corpus.fragment",
+    "fields": {
+        "shelfmark": "ENA 1157.12",
+        "old_shelfmarks": "ENA 1157, f. 12; ENA 1157, fol. 12",
+        "collection": [
+            "",
+            "Jewish Theological Seminary Library"
+        ],
+        "url": "",
+        "iiif_url": "https://figgy.princeton.edu/concern/scanned_resources/111634cd-2c28-49f5-b733-f8441bb05f2b/manifest",
+        "is_multifragment": false,
+        "material_support": null,
+        "provenance_display": null,
+        "provenance": "",
+        "notes": "",
+        "needs_review": "",
+        "manifest": 10473,
+        "created": "2021-05-26T20:25:00.793Z",
+        "last_modified": "2024-01-18T16:55:39.373Z"
+    }
+},
+{
+    "model": "corpus.documenttype",
+    "fields": {
+        "name": "Letter",
+        "name_en": "Letter",
+        "name_he": "מכתב",
+        "name_ar": "رسالة",
+        "display_label": "Letter",
+        "display_label_en": "Letter",
+        "display_label_he": "מכתב",
+        "display_label_ar": "رسالة"
+    }
+},
+{
+    "model": "corpus.document",
+    "pk": 40037,
+    "fields": {
+        "doc_date_original": "",
+        "doc_date_calendar": "",
+        "doc_date_standard": "",
+        "image_overrides": {},
+        "shelfmark_override": "",
+        "description": "Note in Judaeo-Arabic and Hebrew, possibly an addendum to a letter given the content and folding pattern of the paper. 16th-century or later based on the paleography. The writer discusses Yaʿacōv and Ḥ___[?] Ben-Baʿanīra/Baʿanīda.The letter \"Ḥ\" was likely used here to indicate the rabbinic honorific title \"Ḥakham\" rather than a first name. There is also a sum of 400 איש (perhaps es[cudos]). MCD.",
+        "description_en": "Note in Judaeo-Arabic and Hebrew, possibly an addendum to a letter given the content and folding pattern of the paper. 16th-century or later based on the paleography. The writer discusses Yaʿacōv and Ḥ___[?] Ben-Baʿanīra/Baʿanīda.The letter \"Ḥ\" was likely used here to indicate the rabbinic honorific title \"Ḥakham\" rather than a first name. There is also a sum of 400 איש (perhaps es[cudos]). MCD.",
+        "description_he": "",
+        "description_ar": "",
+        "doctype": null,
+        "language_note": "",
+        "notes": "",
+        "created": "2024-08-11T14:49:17.296Z",
+        "last_modified": "2024-08-11T15:20:00.013Z",
+        "needs_review": "",
+        "old_pgpids": null,
+        "status": "P",
+        "languages": [
+            [
+                "Hebrew",
+                "Hebrew"
+            ],
+            [
+                "Judaeo-Arabic",
+                "Hebrew"
+            ]
+        ],
+        "secondary_languages": []
+    }
+},
+{
+    "model": "corpus.document",
+    "pk": 15788,
+    "fields": {
+        "doc_date_original": "",
+        "doc_date_calendar": "",
+        "doc_date_standard": "",
+        "image_overrides": {},
+        "shelfmark_override": "",
+        "description": "Prayer in Judaeo-Arabic",
+        "description_en": "Prayer in Judaeo-Arabic",
+        "description_he": null,
+        "description_ar": null,
+        "doctype": [
+            "Literary"
+        ],
+        "language_note": "",
+        "notes": "",
+        "created": "2021-05-26T20:25:00.421Z",
+        "last_modified": "2021-12-28T19:34:25.384Z",
+        "needs_review": "",
+        "old_pgpids": null,
+        "status": "P",
+        "languages": [
+            [
+                "Judaeo-Arabic",
+                "Hebrew"
+            ]
+        ],
+        "secondary_languages": []
+    }
+},
+{
+    "model": "corpus.document",
+    "pk": 15787,
+    "fields": {
+        "doc_date_original": "",
+        "doc_date_calendar": "",
+        "doc_date_standard": "",
+        "image_overrides": {},
+        "shelfmark_override": "",
+        "description": "Prayer in Judaeo-Arabic",
+        "description_en": "Prayer in Judaeo-Arabic",
+        "description_he": null,
+        "description_ar": null,
+        "doctype": [
+            "Literary"
+        ],
+        "language_note": "",
+        "notes": "",
+        "created": "2021-05-26T20:25:00.388Z",
+        "last_modified": "2021-12-28T19:34:13.679Z",
+        "needs_review": "",
+        "old_pgpids": null,
+        "status": "P",
+        "languages": [
+            [
+                "Judaeo-Arabic",
+                "Hebrew"
+            ]
+        ],
+        "secondary_languages": []
+    }
+},
+{
+    "model": "corpus.document",
+    "pk": 11508,
+    "fields": {
+        "doc_date_original": "",
+        "doc_date_calendar": "",
+        "doc_date_standard": "",
+        "image_overrides": {},
+        "shelfmark_override": "",
+        "description": "Legal document (shetar) mentioning a partnership and a certain Berakhot ha-Kohen. Dating: Early 12th century. The deed was written in two copies. Signatories: Yiṣḥaq b. Shemuʾel ha-Sefaradi (probably the scribe), Yosef b. Saʿadya and Avraham b. Shemaʿya descendant of Shemaʿyahu Gaon",
+        "description_en": "Legal document (shetar) mentioning a partnership and a certain Berakhot ha-Kohen. Dating: Early 12th century. The deed was written in two copies. Signatories: Yiṣḥaq b. Shemuʾel ha-Sefaradi (probably the scribe), Yosef b. Saʿadya and Avraham b. Shemaʿya descendant of Shemaʿyahu Gaon",
+        "description_he": "",
+        "description_ar": "",
+        "doctype": [
+            "Legal"
+        ],
+        "language_note": "",
+        "notes": "",
+        "created": "2021-05-26T20:25:00.770Z",
+        "last_modified": "2022-07-13T16:42:03.686Z",
+        "needs_review": "",
+        "old_pgpids": null,
+        "status": "P",
+        "languages": [],
+        "secondary_languages": []
+    }
+},
+{
+    "model": "corpus.document",
+    "pk": 9938,
+    "fields": {
+        "doc_date_original": "",
+        "doc_date_calendar": "",
+        "doc_date_standard": "",
+        "image_overrides": {},
+        "shelfmark_override": "ENA 1066.1–10",
+        "description": "Ledger of accounts, late, of a Venetian merchant.",
+        "description_en": "Ledger of accounts, late, of a Venetian merchant.",
+        "description_he": "",
+        "description_ar": "",
+        "doctype": [
+            "List or table"
+        ],
+        "language_note": "",
+        "notes": "",
+        "created": "2021-05-26T20:25:00.445Z",
+        "last_modified": "2022-07-12T18:40:55.017Z",
+        "needs_review": "",
+        "old_pgpids": "[\"9939\", \"9940\", \"9941\", \"9942\", \"9943\", \"9944\", \"9945\", \"9946\", \"9947\"]",
+        "status": "P",
+        "languages": [
+            [
+                "Hebrew",
+                "Hebrew"
+            ],
+            [
+                "Judaeo-Italian",
+                "Hebrew"
+            ]
+        ],
+        "secondary_languages": []
+    }
+},
+{
+    "model": "corpus.document",
+    "pk": 12323,
+    "fields": {
+        "doc_date_original": "",
+        "doc_date_calendar": "",
+        "doc_date_standard": "",
+        "image_overrides": {},
+        "shelfmark_override": "",
+        "description": "Letter in Judaeo-Arabic. Fragment (lower right corner of recto). Written on parchment. Likely a Maghribī mercantile letter of the 11th century. Twice refers to \"my master the Third (al-shelishi).\" Refers to a bundle (ruzma) containing something with \"the Seventh (al-sheviʿi)\" written on it. On verso there is a list of names in a different hand: Saʿīd b. Mevorakh; ʿUlla b. [...]; Avraham b. Fahd; Yefet b. [...]; Maʿālī b. Yiṣḥaq Kohen; Yosef b. Ibrāhīm; Abū l-Ḥasan.",
+        "description_en": "Letter in Judaeo-Arabic. Fragment (lower right corner of recto). Written on parchment. Likely a Maghribī mercantile letter of the 11th century. Twice refers to \"my master the Third (al-shelishi).\" Refers to a bundle (ruzma) containing something with \"the Seventh (al-sheviʿi)\" written on it. On verso there is a list of names in a different hand: Saʿīd b. Mevorakh; ʿUlla b. [...]; Avraham b. Fahd; Yefet b. [...]; Maʿālī b. Yiṣḥaq Kohen; Yosef b. Ibrāhīm; Abū l-Ḥasan.",
+        "description_he": "",
+        "description_ar": "",
+        "doctype": [
+            "Letter"
+        ],
+        "language_note": "",
+        "notes": "",
+        "created": "2021-05-26T20:25:00.796Z",
+        "last_modified": "2022-04-21T17:00:08.595Z",
+        "needs_review": "",
+        "old_pgpids": null,
+        "status": "P",
+        "languages": [
+            [
+                "Judaeo-Arabic",
+                "Hebrew"
+            ]
+        ],
+        "secondary_languages": []
+    }
+}
+]
