@@ -2,12 +2,22 @@
 
 catalog geniza content / powered by pgpv4
 
+---
+
 Preliminary proof-of-concept django site that uses the PGPv4 `geniza` codebase as a dependency and installs
 the `geniza.common` and `geniza.corpus` apps.
 
 Use `uv` to install dependencies.
 
-Requires a postgresql database — should be similar set up to geniza. Run migrations and create a db super user account (different from your netid):
+Requires a postgresql database — should be similar set up to geniza.
+
+Copy the sample local settings file and then edit to fill in required configurations.
+
+```bash
+cp madad/settings/local_settings.sample.py madad/settings/local_settings.py
+```
+
+Run migrations and create a db super user account (different from your netid):
 
 ```bash
 python manage.py migrate
