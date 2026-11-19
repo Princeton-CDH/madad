@@ -13,17 +13,14 @@ from pathlib import Path
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-%%2x6gs&&8sj&9dict7&+&w*1t-fe_cft1*btzzbhwrv8)r9ij'
-
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -71,7 +68,7 @@ INSTALLED_APPS = [
 SOLR_CONNECTIONS = {
     "default": {
         "URL": "http://localhost:8983/solr/",
-        "COLLECTION": "madad",
+        "COLLECTION": "cdh_madad",
         "CONFIGSET": "geniza",  # ooh can we get away with this?
         "TEST": {
             # set aggressive commitWithin when testing
@@ -127,7 +124,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "cdh_madad",
         "USER": "cdh_madad",
-        "PASSWORD": "1234!@#$",
+        "PASSWORD": "",
         "HOST": "",  # empty string for localhost
         "PORT": "",  # empty string for default
     }
@@ -186,6 +183,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+STATIC_ROOT = BASE_DIR / "static"
+# exact paths TBD, may include geniza; no local sitemedia yet
+# STATICFILES_DIRS = [
+    # BASE_DIR / "sitemedia",
+# ]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field

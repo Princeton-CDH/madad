@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12.10"
 dependencies = [
+    "django-split-settings>=1.3.2",
     "geniza",  # rely on geniza for requirements & specific versions
 ]
 
